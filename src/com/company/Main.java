@@ -70,7 +70,7 @@ public class Main {
 
         try {
 
-            PrintWriter pr = new PrintWriter(new FileWriter("cidades_processadas.csv"));
+            PrintWriter pr = new PrintWriter(new FileWriter("ligacoes.csv"));
             pr.println("iD,city,lat,lng,admin,capital,ligações");
 
             for(Cidade c: lista){
